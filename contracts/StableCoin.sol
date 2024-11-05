@@ -8,6 +8,7 @@ contract StableCoin is ERC20Burnable, Ownable {
     constructor(string memory name, string memory symbol) ERC20(name, symbol) Ownable(msg.sender) {
     }
 
+
     function burn(uint256 value) public override onlyOwner {
         _burn(_msgSender(), value);
     }
