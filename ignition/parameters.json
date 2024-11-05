@@ -1,0 +1,10 @@
+{
+  "DefaultCoinModule": {
+    "name": "KekCoin",
+    "symbol": "KKC"
+  },
+  "StableCoinModule": {
+    "name": "StableCoin",
+    "symbol": "SLC"
+  }
+}
